@@ -1,0 +1,51 @@
+.about {
+  margin: 0 auto;
+}
+
+.about__title {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  background-color: #023e92;
+  color: #fff;
+  height: 100px;
+}
+
+.about__title-text {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  background-color: #023e92;
+  color: #fff;
+}
+
+.about__subtext {
+  margin: 0;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.about__staff {
+  color: #005284;
+}
+
+.about__staff-members {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.about__staff-member {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 198px;
+  color: #595959;
+}
+
+.aboout__staff-member_name {
+  font-weight: bold;
+  color: #000;
+}

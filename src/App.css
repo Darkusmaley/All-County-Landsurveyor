@@ -1,10 +1,14 @@
 .App {
   /* max-width: 1440px; */
   /* margin: 0 auto; */
-  height: 100%;
+  /* background-color: #abb8c3; */
 }
 
 .app__section {
-  /* max-width: 1440px; */
+   max-width: 1440px; 
   padding: 0 40px;
+}
+
+.app__text {
+  padding: 20px;
 }
