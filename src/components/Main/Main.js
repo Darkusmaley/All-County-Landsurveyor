@@ -29,9 +29,47 @@ function Main() {
           </span>
         </div>
 
-        <div className="surveying-services">
+        <section className="surveying-services">
           <h2 className="surveying-services__title">Our Surveying Services</h2>
-        </div>
+          <ul className="survey-services__list">
+            <li className="survey-services__list-service">
+              ALTA/NSPS Title Survey
+              <span className="survey-services__list-service_desc">
+                An ALTA/NSPS Land Title Survey is a boundary survey that
+                complies with the standards of the American Land Title
+                Association (ALTA), and the National Society of Professional
+                Surveyors, Inc.
+                <button className="surver-services__list-buttone_read-more">
+                  Read more...
+                </button>
+              </span>
+            </li>
+            <li className="survey-services__list-service">
+              Architectural Survey
+              <span className="survey-services__list-service_desc">
+                An Architectural Survey, also known as a Topographical Survey,
+                is a survey used by architects, engineers, contractors or
+                municipalities for design and construction purposes. It is a
+                boundary survey which may{" "}
+                <button className="surver-services__list-buttone_read-more">
+                  Read more...
+                </button>
+              </span>
+            </li>
+            <li className="survey-services__list-service">
+              Boundary/Title Survey
+              <span className="survey-services__list-service_desc">
+                A Boundary/Title Survey locates the boundaries of a property and
+                the extent of ownership. It will also identify property
+                encroachments, easements, and right-of-ways. A scaled map/plat
+                is prepared{" "}
+                <button className="surver-services__list-buttone_read-more">
+                  Read more...
+                </button>
+              </span>
+            </li>
+          </ul>
+        </section>
       </>
     </main>
   );

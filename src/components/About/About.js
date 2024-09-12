@@ -26,7 +26,6 @@ function About() {
         <ul className="about__staff-members">
           <li className="about__staff-member">
             <span className="aboout__staff-member_name">
-              {" "}
               Donal O’Buckley, PLS
             </span>
             Principal Surveyor and Owner

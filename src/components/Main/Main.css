@@ -19,9 +19,49 @@
   cursor: pointer;
 }
 
-.main__subtext-link:hover{
+.main__subtext-link:hover {
   color: blue;
+  text-decoration: underline;
 }
 
 .surveying-services__title {
+  font-size: 25px;
+}
+
+.survey-services__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.survey-services__list-service {
+  max-width: 500px;
+  margin-bottom: 20px;
+  text-wrap: wrap;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+.survey-services__list-service_desc {
+  margin-top: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.surver-services__list-buttone_read-more {
+  background-color: transparent;
+  border: none;
+}
+
+.surver-services__list-buttone_read-more:hover {
+  color: blue;
+  cursor: pointer;
 }
