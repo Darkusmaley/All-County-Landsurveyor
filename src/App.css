@@ -1,12 +1,11 @@
 .App {
-  /* max-width: 1440px; */
-  /* margin: 0 auto; */
-  /* background-color: #abb8c3; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .app__section {
-   max-width: 1440px; 
-  padding: 0 40px;
+  max-width: 1440px;
+  /* padding: 0 40px; */
 }
 
 .app__text {

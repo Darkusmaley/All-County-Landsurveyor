@@ -9,7 +9,7 @@ const Header = () => {
           <img
             src="https://allcountylandsurveyor.com/wp-content/themes/allcounty/images/logo.png"
             alt=" All County Land Surveyor"
-          ></img>
+          />
         </Link>
 
         <div className="header__link-group">

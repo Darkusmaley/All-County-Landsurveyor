@@ -1,4 +1,5 @@
 .main {
+  padding-bottom: 100px;
 }
 
 .main__title {
@@ -56,12 +57,12 @@
   font-weight: normal;
 }
 
-.surver-services__list-buttone_read-more {
+.surver-services__list-button_read-more {
   background-color: transparent;
   border: none;
 }
 
-.surver-services__list-buttone_read-more:hover {
+.surver-services__list-button_read-more:hover {
   color: blue;
   cursor: pointer;
 }
