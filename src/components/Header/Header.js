@@ -16,7 +16,7 @@ const Header = () => {
           <Link to="/about">
             <button className="header__link-group_buttons">About</button>
           </Link>
-          <Link>
+          <Link to="/services">
             <button className="header__link-group_buttons">Services</button>
           </Link>
           <Link>
