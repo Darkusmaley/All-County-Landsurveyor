@@ -25,7 +25,7 @@ const Header = () => {
           <Link>
             <button className="header__link-group_buttons">FAQ</button>
           </Link>
-          <Link>
+          <Link to="/contact">
             <button className="header__link-group_buttons">Contact Us</button>
           </Link>
         </div>
