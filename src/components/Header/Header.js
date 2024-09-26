@@ -19,7 +19,7 @@ const Header = () => {
           <Link to="/services">
             <button className="header__link-group_buttons">Services</button>
           </Link>
-          <Link>
+          <Link to="/blog">
             <button className="header__link-group_buttons">Blog</button>
           </Link>
           <Link>
