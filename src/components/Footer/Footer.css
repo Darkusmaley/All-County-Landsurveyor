@@ -13,7 +13,11 @@
 .footer__contact-info {
   color: #fff;
   display: flex;
-  gap: 10px;
+  gap: 182px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1360px;
+  width: 100%;
 }
 
 .footer__contacts-list {
@@ -24,6 +28,10 @@
 .footer__social-links {
   display: flex;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 239px;
 }
 
 .footer__social-link {

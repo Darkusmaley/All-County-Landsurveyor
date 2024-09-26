@@ -38,12 +38,7 @@ function Services() {
             helping you on your project, contact us directly so that we know
             exactly what is needed on the survey.
           </li>
-          <li className="services__service">
-            <span className="services__service-title">
-              Building Information Management
-            </span>
-            {/* ask for info  */}
-          </li>
+
           <li className="services__service">
             <span className="services__service-title">
               Construction Services
