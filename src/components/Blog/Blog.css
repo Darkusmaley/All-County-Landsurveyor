@@ -27,6 +27,7 @@
 }
 
 .blog__content-post_title {
+  max-width: 793px;
   color: #005284;
   font-size: 24px;
   font-weight: normal;
@@ -70,6 +71,7 @@
 }
 
 .blog__content-post_paragraph-text {
+  max-width: 793px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;

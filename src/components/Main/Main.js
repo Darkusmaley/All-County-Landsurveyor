@@ -39,9 +39,11 @@ function Main() {
                 complies with the standards of the American Land Title
                 Association (ALTA), and the National Society of Professional
                 Surveyors, Inc.
-                <button className="surver-services__list-button_read-more">
-                  Read more...
-                </button>
+                <Link to="/services">
+                  <button className="surver-services__list-button_read-more">
+                    Read more...
+                  </button>
+                </Link>
               </span>
             </li>
             <li className="survey-services__list-service">
@@ -50,10 +52,12 @@ function Main() {
                 An Architectural Survey, also known as a Topographical Survey,
                 is a survey used by architects, engineers, contractors or
                 municipalities for design and construction purposes. It is a
-                boundary survey which may{" "}
-                <button className="surver-services__list-button_read-more">
-                  Read more...
-                </button>
+                boundary survey which may
+                <Link to="/services">
+                  <button className="surver-services__list-button_read-more">
+                    Read more...
+                  </button>
+                </Link>
               </span>
             </li>
             <li className="survey-services__list-service">
@@ -62,10 +66,12 @@ function Main() {
                 A Boundary/Title Survey locates the boundaries of a property and
                 the extent of ownership. It will also identify property
                 encroachments, easements, and right-of-ways. A scaled map/plat
-                is prepared{" "}
-                <button className="surver-services__list-button_read-more">
-                  Read more...
-                </button>
+                is prepared
+                <Link to="services">
+                  <button className="surver-services__list-button_read-more">
+                    Read more...
+                  </button>
+                </Link>
               </span>
             </li>
           </ul>

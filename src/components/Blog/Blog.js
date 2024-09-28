@@ -19,6 +19,7 @@ function Blog() {
                   <img
                     src="https://allcountylandsurveyor.com/wp-content/uploads/2023/02/photo_2023-01-06_15-22-37-e1676322692223.jpg"
                     className="blog__post-image"
+                    alt="surveyer in forest"
                   />
                 </Link>
               </div>
@@ -30,7 +31,11 @@ function Blog() {
                 </Link>
               </div>
               <div className="blog__content-post_date">
-                <img src={Calender} className="blog__post-date_icon" />
+                <img
+                  src={Calender}
+                  className="blog__post-date_icon"
+                  alt="calender"
+                />
                 <div className="blog__content-post_date-text">
                   <span className="blog__content-post_date-day">13</span> Feb,
                   2023
@@ -63,6 +68,7 @@ function Blog() {
                   <img
                     src="https://allcountylandsurveyor.com/wp-content/uploads/2023/02/photo_2023-01-06_15-23-27-e1675813398968.jpg"
                     className="blog__post-image"
+                    alt="survey on balcony"
                   />
                 </Link>
               </div>
@@ -74,7 +80,11 @@ function Blog() {
                 </Link>
               </div>
               <div className="blog__content-post_date">
-                <img src={Calender} className="blog__post-date_icon" />
+                <img
+                  src={Calender}
+                  className="blog__post-date_icon"
+                  alt="calender"
+                />
                 <div className="blog__content-post_date-text">
                   <span className="blog__content-post_date-day">5</span> Feb,
                   2023
@@ -103,38 +113,111 @@ function Blog() {
             </div>
             <div className="blog__content-post">
               <div className="blog__content-post_image">
-                <Link to="/need-a-survey" className="blog__content-post_link">
-                  <img src="" className="blog__post-image" />
+                <Link
+                  to="/plat-problems:-surveyor"
+                  className="blog__content-post_link"
+                >
+                  <img
+                    src="https://allcountylandsurveyor.com/wp-content/uploads/2018/02/news2.png"
+                    className="blog__post-image"
+                    alt="cunstruction in progress"
+                  />
                 </Link>
               </div>
               <div className="blog__content-post_desc">
                 <h2 className="blog__content-post_title">
-                  <Link className="blog__content-post_link"></Link>
+                  <Link
+                    to="/plat-problems:-surveyor"
+                    className="blog__content-post_link"
+                  >
+                    Plat problems: Surveyor tells county about problems with
+                    subdivision’s layout
+                  </Link>
                 </h2>
               </div>
               <div className="blog__content-post_date">
-                {" "}
-                <img src={Calender} className="blog__post-date_icon" />
+                <img
+                  src={Calender}
+                  className="blog__post-date_icon"
+                  alt="calender"
+                />
+                <div className="blog__content-post_date-text">
+                  <span className="blog__content-post_date-day">28</span> May,
+                  2018
+                </div>
               </div>
-              <div className="blog__content-post_details"></div>
-              <div className="blog__content-post_content"></div>
+              <div className="blog__content-post_details">
+                author | 0 here is where the comment counter is
+              </div>
+              <p className="blog__content-post_paragraph-text">
+                Plat problems: Surveyor tells county about problems with
+                subdivision’s layout By Jamie Kelly editor@willistonherald.com
+                May 16, 2018 on Williston Herald A subdivision in Williams
+                County might need to be re-surveyed, and it isn’t clear who will
+                need to bear the cost of that, the Williams County Commission
+                heard Tuesday morning. Blake Sexton, a surveyor, told
+              </p>
+              <Link
+                to="/plat-problems:-surveyor"
+                className="blog__content-post_paragraph-link"
+              >
+                Read More
+              </Link>
             </div>
             <div className="blog__content-post">
               <div className="blog__content-post_image">
-                <Link to="/need-a-survey" className="blog__content-post_link">
-                  <img src="" className="blog__post-image" />
+                <Link
+                  to="/new-york's-former"
+                  className="blog__content-post_link"
+                >
+                  <img
+                    src="https://allcountylandsurveyor.com/wp-content/uploads/2018/02/bews3.png"
+                    className="blog__post-image"
+                    alt="group of four construction workers"
+                  />
                 </Link>
               </div>
               <div className="blog__content-post_desc">
-                <Link className="blog__content-post_link">
-                  <h2 className="blog__content-post_title"></h2>
+                <Link
+                  to="/new-york's-former"
+                  className="blog__content-post_link"
+                >
+                  <h2 className="blog__content-post_title">
+                    New York’s Former Adverse Possession Law
+                  </h2>
                 </Link>
               </div>
               <div className="blog__content-post_date">
-                <img src={Calender} className="blog__post-date_icon" />
+                <img
+                  src={Calender}
+                  className="blog__post-date_icon"
+                  alt="calender"
+                />
+                <div className="blog__content-post_date-text">
+                  <span className="blog__content-post_date-day">15</span>
+                  Feb, 2018
+                </div>
               </div>
-              <div className="blog__content-post_details"></div>
-              <div className="blog__content-post_content"></div>
+              <div className="blog__content-post_details">
+                author | 0 here is where the comment counter is
+              </div>
+              <div className="blog__content-post_content">
+                <p className="blog__content-post_paragraph-text">
+                  Plat problems: Surveyor tells county about problems with
+                  subdivision’s layout By Jamie Kelly editor@willistonherald.com
+                  May 16, 2018 on Williston Herald A subdivision in Williams
+                  County might need to be re-surveyed, and it isn’t clear who
+                  will need to bear the cost of that, the Williams County
+                  Commission heard Tuesday morning. Blake Sexton, a surveyor,
+                  told
+                </p>
+                <Link
+                  to="/new-york's-former"
+                  className="blog__content-post_paragraph-link"
+                >
+                  Read More
+                </Link>
+              </div>
             </div>
           </div>
         </div>
