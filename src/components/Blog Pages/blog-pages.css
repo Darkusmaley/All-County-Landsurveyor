@@ -1,0 +1,27 @@
+.blog__article {
+}
+
+.blog__crossbar {
+  margin: 0;
+  background-color: #393939;
+  height: 60px;
+}
+
+.article {
+  margin: 0 auto;
+  padding: 20px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 862px;
+}
+
+.article__title {
+  margin-bottom: 30px;
+  /* margin: 0 auto; */
+  margin-bottom: 30px;
+}
+
+.article__desc {
+  line-height: 26px;
+  max-width: 800px;
+}

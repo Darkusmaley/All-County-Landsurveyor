@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import Blog from "./components/Blog/Blog";
+import Need_a_survey from "./components/Blog Pages/need-a-survey";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/services" element={<Services />}></Route>
         <Route exact path="/contact" element={<Contact />}></Route>
         <Route exact path="/blog" element={<Blog />}></Route>
+        <Route exact path="/need-a-survey" element={<Need_a_survey />}></Route>
       </Routes>
       <Footer />
     </div>
