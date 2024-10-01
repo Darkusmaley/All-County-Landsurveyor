@@ -42,7 +42,7 @@ function Blog() {
                 </div>
               </div>
               <div className="blog__content-post_details">
-                author | 0 here is where the comment counter is
+                Allcidmin | 0 here is where the comment counter is
               </div>
 
               <div className="blog__content-post_paragraph">
@@ -92,7 +92,7 @@ function Blog() {
               </div>
 
               <div className="blog__content-post_details">
-                author | 0 here is where the comment counter is
+                Allcidmin | 0 here is where the comment counter is
               </div>
               <div className="blog__content-post_paragraph">
                 <p className="blog__content-post_paragraph-text">
@@ -114,7 +114,7 @@ function Blog() {
             <div className="blog__content-post">
               <div className="blog__content-post_image">
                 <Link
-                  to="/plat-problems:-surveyor"
+                  to="/plat-problems"
                   className="blog__content-post_link"
                 >
                   <img
@@ -127,7 +127,7 @@ function Blog() {
               <div className="blog__content-post_desc">
                 <h2 className="blog__content-post_title">
                   <Link
-                    to="/plat-problems:-surveyor"
+                    to="/plat-problems"
                     className="blog__content-post_link"
                   >
                     Plat problems: Surveyor tells county about problems with
@@ -147,7 +147,7 @@ function Blog() {
                 </div>
               </div>
               <div className="blog__content-post_details">
-                author | 0 here is where the comment counter is
+                Allcidmin | 0 here is where the comment counter is
               </div>
               <p className="blog__content-post_paragraph-text">
                 Plat problems: Surveyor tells county about problems with
@@ -158,7 +158,7 @@ function Blog() {
                 heard Tuesday morning. Blake Sexton, a surveyor, told
               </p>
               <Link
-                to="/plat-problems:-surveyor"
+                to="/plat-problems"
                 className="blog__content-post_paragraph-link"
               >
                 Read More
@@ -167,7 +167,7 @@ function Blog() {
             <div className="blog__content-post">
               <div className="blog__content-post_image">
                 <Link
-                  to="/new-york's-former"
+                  to="/adverse-possession"
                   className="blog__content-post_link"
                 >
                   <img
@@ -179,7 +179,7 @@ function Blog() {
               </div>
               <div className="blog__content-post_desc">
                 <Link
-                  to="/new-york's-former"
+                  to="/adverse-possession"
                   className="blog__content-post_link"
                 >
                   <h2 className="blog__content-post_title">
@@ -199,7 +199,7 @@ function Blog() {
                 </div>
               </div>
               <div className="blog__content-post_details">
-                author | 0 here is where the comment counter is
+                Allcidmin | 0 here is where the comment counter is
               </div>
               <div className="blog__content-post_content">
                 <p className="blog__content-post_paragraph-text">
@@ -212,7 +212,7 @@ function Blog() {
                   told
                 </p>
                 <Link
-                  to="/new-york's-former"
+                  to="/adverse-possession"
                   className="blog__content-post_paragraph-link"
                 >
                   Read More

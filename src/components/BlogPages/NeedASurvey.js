@@ -1,7 +1,7 @@
-import "./blog-pages.css";
+import "./blogPages.css";
 import Header from "../Header/Header";
 
-function Need_a_survey() {
+function NeedASurvey() {
   return (
     <section className="blog__article app__section">
       <Header />
@@ -81,4 +81,4 @@ function Need_a_survey() {
   );
 }
 
-export default Need_a_survey;
+export default NeedASurvey;

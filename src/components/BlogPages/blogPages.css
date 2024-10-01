@@ -17,8 +17,8 @@
 
 .article__title {
   margin-bottom: 30px;
-  /* margin: 0 auto; */
-  margin-bottom: 30px;
+  max-width: 791px;
+  border-bottom: 2px #393939 solid;
 }
 
 .article__desc {
