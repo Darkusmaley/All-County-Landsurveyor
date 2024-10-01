@@ -3,16 +3,19 @@ import FacebookLogo from "../../Images/facebook.svg";
 import TwitterLogo from "../../Images/twitter.svg";
 import LinkedInLogo from "../../Images/linkedIn.svg";
 import YoutubeLogo from "../../Images/youtube.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="footer app__section">
       <div className="footer__info">
         <div className="footer__logo">
-          <img
-            src="https://allcountylandsurveyor.com/wp-content/themes/allcounty/images/logo.png"
-            alt=" All County Land Surveyor"
-          />
+          <Link to="/">
+            <img
+              src="https://allcountylandsurveyor.com/wp-content/themes/allcounty/images/logo.png"
+              alt=" All County Land Surveyor"
+            />
+          </Link>
         </div>
         <div className="footer__contact-info">
           <div className="footer__contacts">
