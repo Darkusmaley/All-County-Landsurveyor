@@ -8,7 +8,7 @@ function Main() {
     <main className="main app__section">
       <Header />
       <>
-        <div>
+        <section>
           <h1 className="main__title">
             Looking for a professional land surveyor?
           </h1>
@@ -27,7 +27,7 @@ function Main() {
               <button className="main__subtext-link">More about us</button>
             </Link>
           </span>
-        </div>
+        </section>
 
         <section className="surveying-services">
           <h2 className="surveying-services__title">Our Surveying Services</h2>

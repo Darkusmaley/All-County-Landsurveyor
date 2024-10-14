@@ -47,6 +47,7 @@
 
 .survey-services__list-service_desc {
   margin-top: 10px;
+  margin-bottom: 10px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;

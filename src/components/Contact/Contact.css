@@ -13,3 +13,64 @@
   color: #fff;
   height: 100px;
 }
+.contact__wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__info-list {
+  list-style: none;
+}
+
+.contact__info-contact_title {
+  margin: 0;
+}
+
+.contact__info-contact_desc {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form-title {
+  margin: 18px auto;
+}
+
+.contact__form-info {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 412px;
+}
+
+.contact__form-input_wrapper {
+  max-width: 201px;
+  width: 100%;
+}
+
+.contact__form-input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact__form-input_wrapper-textArea {
+  max-width: 412px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.contact__form-input_wrapper-textArea_input {
+  padding: 15px;
+  height: 160px;
+  max-width: 380px;
+  width: 100%;
+  border-radius: 5px;
+}
