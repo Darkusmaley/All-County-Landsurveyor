@@ -1,7 +1,7 @@
 import "./Contact.css";
 import Header from "../Header/Header";
 
-function Contact() {
+function Contact(printMsg) {
   return (
     <section className="contact app__section">
       <Header />
@@ -124,6 +124,14 @@ function Contact() {
                   aria-invalid="false"
                   rows="10"
                 />
+
+                <button
+                  className="contact__form_submit-button"
+                  // data-sitekey="6LcKhGEqAAAAALHou-JC17GeeMZ9g2f_g5zx0eHi"
+                  // onSubmit={captcha}
+                >
+                  <h3 className="contact__form_submit-button_text">Submit</h3>
+                </button>
               </div>
             </form>
           </div>

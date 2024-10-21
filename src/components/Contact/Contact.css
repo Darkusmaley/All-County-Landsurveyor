@@ -61,6 +61,12 @@
   border-radius: 5px;
 }
 
+.contact__form-input_wrapper-messageBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .contact__form-input_wrapper-textArea {
   max-width: 412px;
   width: 100%;
@@ -73,4 +79,20 @@
   max-width: 380px;
   width: 100%;
   border-radius: 5px;
+}
+
+.contact__form_submit-button {
+  margin: 0 auto;
+  width: 130px;
+  height: 59px;
+  background-color: #005183;
+  border: 1px solid #005183;
+  cursor: pointer;
+  color: #fff;
+}
+
+.contact__form_submit-button_text {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
 }
