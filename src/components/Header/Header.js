@@ -22,7 +22,7 @@ const Header = () => {
           <Link to="/blog">
             <button className="header__link-group_buttons">Blog</button>
           </Link>
-          <Link>
+          <Link to="/faq">
             <button className="header__link-group_buttons">FAQ</button>
           </Link>
           <Link to="/contact">
