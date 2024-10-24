@@ -1,0 +1,22 @@
+.sideBar {
+}
+
+.sidebar__username {
+  font-size: 30px;
+}
+
+.sidebar__list {
+  list-style: none;
+}
+
+.sidebar__list-tab {
+}
+
+.sidebar__list-tab_text {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.sidebar__list-tab_image {
+}
