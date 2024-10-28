@@ -22,10 +22,10 @@ function Main({ handleMobileModal }) {
       {isMobile ? (
         <>
           <MobileView handleMobileModal={handleMobileModal} />
-          {/* <h1 className="main__title">
+          <h1 className="main__title">
             Looking for a professional land surveyor?{" "}
           </h1>
-          <p className="main__subtext">
+          <h2 className="main__subtext">
             Are you in need of a NY land surveyor for all of your land surveying
             needs? If so, you’ve come to the right place! Here at All County
             Land Surveying, we have the tools and experience to complete any and
@@ -34,7 +34,12 @@ function Main({ handleMobileModal }) {
             far past the boundaries of the 5 boroughs. With a new Western NY
             Branch servicing areas such as Rochester Buffalo, and Syracuse NY,
             we have you
-          </p> */}
+          </h2>
+          <span>
+            <Link to="/about">
+              <button className="main__subtext-link">More about us</button>
+            </Link>
+          </span>
         </>
       ) : (
         <>

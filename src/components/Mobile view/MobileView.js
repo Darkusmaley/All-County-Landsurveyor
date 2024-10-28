@@ -4,7 +4,7 @@ import menu from "../../Images/menu.svg";
 
 import "./MobileView.css";
 
-const MobileView = ({ currentRoute, handleMobileModal }) => {
+const MobileView = ({ handleMobileModal }) => {
   //   const { navigateToHome } = useNavigation();
 
   return (

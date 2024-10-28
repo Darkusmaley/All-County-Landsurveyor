@@ -4,6 +4,8 @@
 
 .main__title {
   font-size: 35px;
+  margin: 0;
+  padding-top: 20px;
 }
 
 .main__subtext {
@@ -77,4 +79,21 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .main {
+    max-width: 767px;
+  }
+
+  .main__title {
+    text-align: center;
+  }
+
+  .main__subtext {
+    text-align: center;
+    font-size: 18px;
+    -webkit-line-clamp: 5;
+  }
+
+  .main__subtext-link{
+    font-size: 18px;
+  }
 }

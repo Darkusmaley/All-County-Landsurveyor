@@ -1,5 +1,6 @@
 import "./App.css";
 import Main from "./components/Main/Main";
+import MobileModal from "./components/MobileModal/MobileModal";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Services from "./components/Services/Services";
@@ -8,20 +9,30 @@ import FAQ from "./components/FAQ/FAQ";
 import Profile from "./components/Profile/Profile";
 import Blog from "./components/Blog/Blog";
 import NeedASurvey from "./components/BlogPages/NeedASurvey";
-import { Route, Routes } from "react-router-dom";
-import { useState } from "react";
 import CanYouOrder from "./components/BlogPages/CanYouOrder";
 import PlatProblems from "./components/BlogPages/PlatProblems";
 import AdversePossession from "./components/BlogPages/AdversePossesion";
 import { CurrentUserContext } from "./contexts/CurrentUserContext";
+import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
   //states go here
   const [currentUser, setCurrentUser] = useState({});
   // const [isLoading, setIsLoading] = useState(false);
   // const [isLoggedIn, setLogin] = useState(false);
+  const [activeModal, setActiveModal] = useState("");
 
   // functions go here
+
+  const handleMobileModal = () => {
+    setActiveModal("mobile");
+  };
+
+  const handleCloseModal = () => {
+    setActiveModal("");
+  };
+
   // const loginUser = (user) => {
   //   setIsLoading(true);
   //   const makeRequest = () => {
@@ -91,7 +102,11 @@ function App() {
     <div className="App">
       <CurrentUserContext.Provider value={currentUser}>
         <Routes>
-          <Route exact path="/" element={<Main />}></Route>
+          <Route
+            exact
+            path="/"
+            element={<Main handleMobileModal={handleMobileModal} />}
+          ></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/services" element={<Services />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
@@ -109,7 +124,18 @@ function App() {
           {/* protected routes */}
           <Route exact path="/profile" element={<Profile />}></Route>
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
+
+        {activeModal === "mobile" && (
+          <MobileModal
+            handleCloseModal={handleCloseModal}
+            isOpen={activeModal === "mobile"}
+            // isLoggedIn={isLoggedIn}
+            // handleLogout={logoutUser}
+            openMobileModal={handleMobileModal}
+            // handleLoginModal={handleLoginModal}
+          />
+        )}
       </CurrentUserContext.Provider>
     </div>
   );
