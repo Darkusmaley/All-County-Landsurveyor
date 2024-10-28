@@ -1,11 +1,11 @@
 import "./Main.css";
 import Header from "../Header/Header";
-
+import MobileView from "../Mobile view/MobileView";
 import React from "react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-function Main() {
+function Main({ handleMobileModal }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
@@ -19,14 +19,10 @@ function Main() {
 
   return (
     <main className="main app__section">
-      <Header />
       {isMobile ? (
         <>
-          {/* <MobileView
-            currentRoute={"main"}
-            handleMobileModal={handleMobileModal}
-          /> */}
-          <h1 className="main__title">
+          <MobileView handleMobileModal={handleMobileModal} />
+          {/* <h1 className="main__title">
             Looking for a professional land surveyor?{" "}
           </h1>
           <p className="main__subtext">
@@ -38,10 +34,11 @@ function Main() {
             far past the boundaries of the 5 boroughs. With a new Western NY
             Branch servicing areas such as Rochester Buffalo, and Syracuse NY,
             we have you
-          </p>
+          </p> */}
         </>
       ) : (
         <>
+          <Header />
           <section>
             <h1 className="main__title">
               Looking for a professional land surveyor?

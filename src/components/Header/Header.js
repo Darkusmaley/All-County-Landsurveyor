@@ -5,10 +5,11 @@ const Header = () => {
   return (
     <header className="header app__section">
       <div className="header__links">
-        <Link to="/">
+        <Link to="/" className="header__link-home">
           <img
             src="https://allcountylandsurveyor.com/wp-content/themes/allcounty/images/logo.png"
             alt=" All County Land Surveyor"
+            className="header__logo"
           />
         </Link>
 
