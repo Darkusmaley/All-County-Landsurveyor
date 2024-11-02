@@ -107,14 +107,46 @@ function App() {
             path="/"
             element={<Main handleMobileModal={handleMobileModal} />}
           ></Route>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/services" element={<Services />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
-          <Route exact path="/faq" element={<FAQ />}></Route>
-          <Route exact path="/blog" element={<Blog />}></Route>
-          <Route exact path="/need-a-survey" element={<NeedASurvey />}></Route>
-          <Route exact path="/can-you-order" element={<CanYouOrder />}></Route>
-          <Route exact path="/plat-problems" element={<PlatProblems />}></Route>
+          <Route
+            exact
+            path="/about"
+            element={<About handleMobileModal={handleMobileModal} />}
+          ></Route>
+          <Route
+            exact
+            path="/services"
+            element={<Services handleMobileModal={handleMobileModal} />}
+          ></Route>
+          <Route
+            exact
+            path="/contact"
+            element={<Contact handleMobileModal={handleMobileModal} />}
+          ></Route>
+          <Route
+            exact
+            path="/faq"
+            element={<FAQ handleMobileModal={handleMobileModal} />}
+          ></Route>
+          <Route
+            exact
+            path="/blog"
+            element={<Blog handleMobileModal={handleMobileModal} />}
+          ></Route>
+          <Route
+            exact
+            path="/need-a-survey"
+            element={<NeedASurvey handleMobileModal={handleMobileModal} />}
+          ></Route>
+          <Route
+            exact
+            path="/can-you-order"
+            element={<CanYouOrder handleMobileModal={handleMobileModal} />}
+          ></Route>
+          <Route
+            exact
+            path="/plat-problems"
+            element={<PlatProblems handleMobileModal={handleMobileModal} />}
+          ></Route>
           <Route
             exact
             path="/adverse-possession"
@@ -124,7 +156,7 @@ function App() {
           {/* protected routes */}
           <Route exact path="/profile" element={<Profile />}></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
 
         {activeModal === "mobile" && (
           <MobileModal

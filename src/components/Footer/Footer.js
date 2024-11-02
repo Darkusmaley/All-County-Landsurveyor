@@ -9,11 +9,12 @@ function Footer() {
   return (
     <footer className="footer app__section">
       <div className="footer__info">
-        <div className="footer__logo">
+        <div>
           <Link to="/">
             <img
               src="https://allcountylandsurveyor.com/wp-content/themes/allcounty/images/logo.png"
               alt=" All County Land Surveyor"
+              className="footer__logo"
             />
           </Link>
         </div>

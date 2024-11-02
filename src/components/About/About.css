@@ -50,3 +50,34 @@
   font-weight: bold;
   color: #000;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about {
+    padding-bottom: 10px;
+  }
+
+  .about__title {
+    height: 18px;
+  }
+
+  .about__title-text {
+    font-size: 35px;
+  }
+
+  .about__subtext {
+    font-size: 18px;
+  }
+
+  .about__staff {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .about__staff-members {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

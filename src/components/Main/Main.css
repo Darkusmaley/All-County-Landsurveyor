@@ -91,9 +91,10 @@
     text-align: center;
     font-size: 18px;
     -webkit-line-clamp: 5;
+    line-clamp: 5;
   }
 
-  .main__subtext-link{
+  .main__subtext-link {
     font-size: 18px;
   }
 }
