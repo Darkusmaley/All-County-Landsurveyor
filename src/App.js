@@ -165,7 +165,7 @@ function App() {
             // isLoggedIn={isLoggedIn}
             // handleLogout={logoutUser}
             openMobileModal={handleMobileModal}
-            // handleLoginModal={handleLoginModal}
+          // handleLoginModal={handleLoginModal}
           />
         )}
       </CurrentUserContext.Provider>
@@ -174,3 +174,6 @@ function App() {
 }
 
 export default App;
+
+
+// {isMobile ? (<> <MobileView handleMobileModal={handleMobileModal} /></>) :()}
