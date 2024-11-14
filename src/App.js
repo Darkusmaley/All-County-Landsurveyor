@@ -27,6 +27,7 @@ function App() {
 
   const handleMobileModal = () => {
     setActiveModal("mobile");
+    console.log("pie")
   };
 
   const handleCloseModal = () => {
@@ -150,7 +151,7 @@ function App() {
           <Route
             exact
             path="/adverse-possession"
-            element={<AdversePossession />}
+            element={<AdversePossession handleMobileModal={handleMobileModal} />}
           ></Route>
 
           {/* protected routes */}

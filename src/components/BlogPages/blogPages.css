@@ -1,6 +1,3 @@
-.blog__article {
-}
-
 .blog__crossbar {
   margin: 0;
   background-color: #393939;
@@ -16,6 +13,7 @@
 }
 
 .article__title {
+  margin-top: 0;
   margin-bottom: 30px;
   max-width: 791px;
   border-bottom: 2px #393939 solid;
@@ -24,4 +22,17 @@
 .article__desc {
   line-height: 26px;
   max-width: 800px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .article {
+    padding: 10px;
+  }
+
+  .blog__crossbar {
+    height: 45px;
+
+  }
 }

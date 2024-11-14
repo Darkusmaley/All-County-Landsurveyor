@@ -1,25 +1,17 @@
 import React from "react";
-// import useNavigation from "../Navigation/Navigation";
 import menu from "../../Images/menu.svg";
-
 import "./MobileView.css";
 import { Link } from "react-router-dom";
 
 const MobileView = ({ handleMobileModal }) => {
-  //   const { navigateToHome } = useNavigation();
-
   return (
     <header className="mobile-header">
       <div className="mobile-header__container">
         <Link to="/">
           <button
             className="mobile-header__button_home"
-            //   onClick={navigateToHome}
-          >
-            {/* <h3 className="mobile-header__button_home-text">
-            All County Land Surveyor
-          </h3> */}
 
+          >
             <img
               src="https://allcountylandsurveyor.com/wp-content/themes/allcounty/images/logo.png"
               alt=" All County Land Surveyor"

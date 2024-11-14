@@ -88,6 +88,7 @@
   }
 
   .main__subtext {
+    padding: 4px;
     text-align: center;
     font-size: 18px;
     -webkit-line-clamp: 5;
