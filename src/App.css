@@ -1,12 +1,10 @@
 .App {
-  max-width: 1440px;
   margin: 0 auto;
 }
 
-.app__section {
-  max-width: 1440px;
-  /* padding: 0 40px; */
-}
+/* .app__section {
+
+} */
 
 .app__text {
   padding: 20px;

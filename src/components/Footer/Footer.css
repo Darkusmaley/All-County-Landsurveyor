@@ -1,5 +1,8 @@
 .footer {
+  bottom: 0;
   background-color: #656161;
+  position: fixed;
+  width: 100%;
 }
 
 .footer__info {
@@ -13,10 +16,9 @@
 .footer__contact-info {
   color: #fff;
   display: flex;
-  gap: 182px;
   align-items: center;
   justify-content: space-between;
-  max-width: 1360px;
+  max-width: 1700px;
   width: 100%;
 }
 
@@ -57,6 +59,10 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    position: unset;
+  }
+
   .footer__contact-info {
     flex-direction: column;
     gap: 50px;
