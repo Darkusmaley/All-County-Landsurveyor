@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CurrentUserContext } from "../../contexts/CurrentUserContext";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ isLoggedIn }) => {
+  const currentUser = useContext(CurrentUserContext);
+
+  const pie = () => {
+    console.log("pie");
+  };
   return (
     <header className="header app__section">
       <div className="header__links">
@@ -29,6 +36,25 @@ const Header = () => {
           <Link to="/contact">
             <button className="header__link-group_buttons">Contact Us</button>
           </Link>
+
+          { isLoggedIn ? (
+            <>
+              <Link to="/profile">
+                <button className="header__link-group_buttons">
+                  {currentUser}
+                </button>
+              </Link>
+            </>
+          ) : (
+            <>
+              <button
+                className="header__link-group_buttons"
+                onClick={pie}
+              >
+                Login
+              </button>
+            </>
+          )}
         </div>
       </div>
     </header>

@@ -1,5 +1,4 @@
 import "./Main.css";
-import Header from "../Header/Header";
 import MobileView from "../Mobile view/MobileView";
 import React from "react";
 import { useEffect, useState } from "react";
@@ -43,9 +42,9 @@ function Main({ handleMobileModal }) {
         </>
       ) : (
         <>
-          <Header />
+          {/* <Header isLoggedIn={isLoggedIn} /> */}
           <section className="main__content">
-            <div >
+            <div>
               <h1 className="main__title">
                 Looking for a professional land surveyor?
               </h1>
@@ -54,10 +53,10 @@ function Main({ handleMobileModal }) {
                 surveying needs? If so, you’ve come to the right place! Here at
                 All County Land Surveying, we have the tools and experience to
                 complete any and all jobs you have. With more than 40 years of
-                combined land surveying experience, no job is too challenging. Our
-                services extend far past the boundaries of the 5 boroughs. With a
-                new Western NY Branch servicing areas such as Rochester Buffalo,
-                and Syracuse NY, we have you
+                combined land surveying experience, no job is too challenging.
+                Our services extend far past the boundaries of the 5 boroughs.
+                With a new Western NY Branch servicing areas such as Rochester
+                Buffalo, and Syracuse NY, we have you
               </h2>
               <span>
                 <Link to="/about">
@@ -88,10 +87,10 @@ function Main({ handleMobileModal }) {
                 <li className="survey-services__list-service">
                   Architectural Survey
                   <span className="survey-services__list-service_desc">
-                    An Architectural Survey, also known as a Topographical Survey,
-                    is a survey used by architects, engineers, contractors or
-                    municipalities for design and construction purposes. It is a
-                    boundary survey which may
+                    An Architectural Survey, also known as a Topographical
+                    Survey, is a survey used by architects, engineers,
+                    contractors or municipalities for design and construction
+                    purposes. It is a boundary survey which may
                     <Link to="/services">
                       <button className="surver-services__list-button_read-more">
                         Read more...
@@ -104,8 +103,8 @@ function Main({ handleMobileModal }) {
                   <span className="survey-services__list-service_desc">
                     A Boundary/Title Survey locates the boundaries of a property
                     and the extent of ownership. It will also identify property
-                    encroachments, easements, and right-of-ways. A scaled map/plat
-                    is prepared
+                    encroachments, easements, and right-of-ways. A scaled
+                    map/plat is prepared
                     <Link to="services">
                       <button className="surver-services__list-button_read-more">
                         Read more...
@@ -114,7 +113,8 @@ function Main({ handleMobileModal }) {
                   </span>
                 </li>
               </ul>
-            </div></section>
+            </div>
+          </section>
         </>
       )}
     </main>

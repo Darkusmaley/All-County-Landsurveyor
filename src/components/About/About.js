@@ -1,5 +1,4 @@
 import "./About.css";
-import Header from "../Header/Header";
 import MobileView from "../Mobile view/MobileView";
 import { useEffect, useState } from "react";
 
@@ -69,8 +68,6 @@ function About({ handleMobileModal }) {
         </>
       ) : (
         <>
-          <Header />
-
           <div className="about__title">
             <h1 className="about__title-text">About</h1>
           </div>
