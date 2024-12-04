@@ -10,6 +10,7 @@ const ModalWithForm = ({ children, title, onClose, name, onSubmit }) => {
           className="modal__close-button"
         />
         <h3 className="modal__title">{title}</h3>
+        <div className="modal__underline"></div>
         <form onSubmit={onSubmit}>{children}</form>
       </div>
     </Modal>

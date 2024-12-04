@@ -7,7 +7,7 @@ const LoginModal = ({
   isLoading,
   loginUser,
   openRegisterModal,
-  buttontext = isLoading ? "Logging in..." : "Log in",
+  buttontext = isLoading ? "Logging" : "Login",
 }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -27,32 +27,31 @@ const LoginModal = ({
 
   return (
     <ModalWithForm
-      title="Login"
+      title="Login to All County Landsurveyer"
       onClose={handleCloseModal}
       isOpen={isOpen}
       onSubmit={onLogin}
     >
       <div className="form__info">
         <label className="form__label">
-          Email
           <input
             type="text"
             name="email"
             minLength="1"
             maxLength="30"
-            className="input"
+            className="form__input"
             placeholder="Email"
             value={email}
             onChange={handleEmailChange}
           />
         </label>
         <label className="form__label">
-          Password
+          {/* look into hiding password */}
           <input
             type="text"
             name="password"
             minLength="1"
-            className="input"
+            className="form__input"
             placeholder="Password"
             value={password}
             onChange={handlePasswordChange}
@@ -63,7 +62,7 @@ const LoginModal = ({
         <button type="submit" className="form__submit-button">
           {buttontext}
         </button>
-        <button className="form__login-button" onClick={openRegisterModal}>
+        <button className="form__register-button" onClick={openRegisterModal}>
           or Register
         </button>
       </div>

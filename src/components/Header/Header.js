@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { CurrentUserContext } from "../../contexts/CurrentUserContext";
 import "./Header.css";
 
-const Header = ({ isLoggedIn }) => {
+const Header = ({ isLoggedIn, handleLogin }) => {
   const currentUser = useContext(CurrentUserContext);
 
   const pie = () => {
@@ -37,11 +37,11 @@ const Header = ({ isLoggedIn }) => {
             <button className="header__link-group_buttons">Contact Us</button>
           </Link>
 
-          { isLoggedIn ? (
+          {isLoggedIn ? (
             <>
               <Link to="/profile">
                 <button className="header__link-group_buttons">
-                  {currentUser}
+                  {currentUser.name} Sam
                 </button>
               </Link>
             </>
@@ -49,7 +49,7 @@ const Header = ({ isLoggedIn }) => {
             <>
               <button
                 className="header__link-group_buttons"
-                onClick={pie}
+                onClick={handleLogin}
               >
                 Login
               </button>

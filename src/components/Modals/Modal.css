@@ -11,16 +11,29 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal__title {
+  font-size: 25px;
+  margin: 20px 0 10px;
+  /* border-bottom: 1px solid; */
+}
+
+.modal__underline {
+  position: fixed;
+  right: 530px;
+  width: 497px;
+  border-bottom: 2px solid #dadde1;
+}
+
 .modal__container {
   width: 496px;
-  height: 436px;
+  height: 265px;
 }
 
 .modal__content {
   position: relative;
   background-color: #fff;
   max-height: 610px;
-  max-width: 498px;
+  max-width: 441px;
   width: 100%;
   border-radius: 10px;
   padding: 28px;
@@ -43,7 +56,23 @@
   opacity: 0.5;
 }
 
+.form__info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.form__input {
+  margin-top: 5px;
+  border-color: #dadde1;
+  border-radius: 5px;
+  height: 10px;
+  padding: 10px;
+}
+
 .form__buttons {
+  margin: 32px auto 0;
   display: flex;
   max-width: 150px;
   max-height: 36px;
@@ -53,9 +82,9 @@
 
 .form__submit-button {
   border-radius: 4px;
-  border-color: #000;
-  background: #000000;
-  color: #fff;
+  border-color: #dadde1;
+  background: #dadde1;
+  color: #000;
   font-family: Cabinet Grotesk;
   font-size: 16px;
   font-weight: 700;
@@ -69,10 +98,10 @@
   border-color: #0000004d;
 }
 
-.form__login-button {
+.form__register-button {
   border: none;
   background: #fff;
-  color: #00000080;
+  color: #000;
   font-family: Cabinet Grotesk;
   font-size: 16px;
   font-weight: 700;
@@ -92,6 +121,8 @@
 }
 
 .form__label {
+  display: flex;
+  flex-direction: column;
   font-family: Cabinet Grotesk;
   font-size: 16px;
   font-weight: 700;
